@@ -1,6 +1,6 @@
 {
   "name": "react-native-geoguard-telemetry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enterprise-grade background tracking engine featuring highly dynamic nested JSON body injection filters and lifecycle persistence.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
