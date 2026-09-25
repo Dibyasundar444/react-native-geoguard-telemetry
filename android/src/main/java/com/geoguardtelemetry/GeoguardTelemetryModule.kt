@@ -107,4 +107,12 @@ class GeoGuardTelemetryModule(
         activeModuleInstance.compareAndSet(this, null)
         super.invalidate()
     }
+
+    override fun addListener(eventName: String) {
+        // Required by NativeEventEmitter
+    }
+
+    override fun removeListeners(count: Double) {
+        // Required by NativeEventEmitter
+    }
 }
